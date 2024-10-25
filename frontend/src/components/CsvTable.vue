@@ -1,5 +1,4 @@
 <script setup>
-import { VDataTable } from 'vuetify'
 
 const items = [
     {
@@ -12,6 +11,5 @@ const items = [
 </script>
 
 <template>
-    <h1>CSV</h1>
     <v-data-table :items="items"></v-data-table>
 </template>
