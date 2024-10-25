@@ -14,8 +14,15 @@
 Настройки для подключения к MongoDB и другим сервисам указаны в файле `.env`:
 
 ```bash
+# Mongo settings
 MONGODB_URL=mongodb://localhost:27017
 MONGODB_DB_NAME=mydatabase
+
+# FastAPI settings
+APP_ENV=development
+APP_HOST=127.0.0.1
+APP_PORT=8000
+APP_RELOAD=true
 ```
 
 ### Запуск
