@@ -16,3 +16,11 @@
 ```bash
 MONGODB_URL=mongodb://localhost:27017
 MONGODB_DB_NAME=mydatabase
+```
+
+### Запуск
+
+
+```bash
+uvicorn app.main:app --reload
+```
