@@ -1,0 +1,35 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.venv/
+
+# FastAPI + Uvicorn
+log/
+logs/
+
+# Environment variables
+.env
+
+# Idea, VS Code and PyCharm related settings
+.idea/
+.vscode/
+*.iml
+
+# Frontend-related
+/node_modules
+/dist
+/public
+.DS_Store
+
+# Byte-compiled or optimized or DLL files
+*.py[cod]
+*$py.class
+
+# pytest related
+.cache/
+
